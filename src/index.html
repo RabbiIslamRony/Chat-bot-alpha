@@ -24,15 +24,48 @@
     <!-- ===== Sidebar End ===== -->
 
     <!-- ===== Content Area Start ===== -->
-    <div>
+    <div class="w-full">
       <!-- ===== Header Start ===== -->
       <include src="./partials/header.html" />
       <!-- ===== Header End ===== -->
 
       <!-- ===== Main Content Start ===== -->
       <main>
-dasfcs
-
+        <div class="h-screen bg-gray-300 w-full">
+          <div class="flex justify-center items-center h-screen ">
+            <div id="chat-window" class="w-80 h-96 bg-gray-400 rounded shadow-2xl scale-[1.5]">
+              <nav class="w-full h-10 bg-gray-900 rounded-tr rounded-tl flex justify-between items-center">
+                <div class="flex justify-center items-center"> <i
+                    class="uil uil-angle-left-b font-normal text-gray-300 ml-1"></i> <img
+                    src="https://cdn-icons-png.flaticon.com/512/11865/11865338.png" class="rounded-full ml-1" width="25" height="25"> <span
+                    class="text-xs font-medium text-gray-300 ml-1">ChatGPT 3.5</span> </div>
+                <div class="flex items-center"> <i class="mdi mdi-video text-gray-300 mr-4"></i> <i
+                    class="uil uil-phone text-gray-300 mr-2"></i> <i
+                    class="uil uil-ellipsis-v text-gray-300 mr-2"></i> </div>
+              </nav>
+              <div id="chat-message" class="overflow-auto px-1 py-1 h-[19rem]">
+                
+              </div>
+              <form id="chat-form" class="flex justify-between items-center p-1 ">
+                <div class="relative"> <i class="uil uil-smile absolute top-1 left-1 text-gray-400"
+                    style="font-size: 17px !important;font-weight: bold;"></i>
+                    <input id="chat-input" type="text"
+                    class="rounded-full pl-6 pr-12 py-2 focus:outline-none h-auto placeholder-gray-100 bg-gray-900 text-white"
+                    style="font-size: 11px;width: 250px;" placeholder="Type a message..."> <i
+                    class="uil uil-paperclip absolute right-8 top-1 transform -rotate-45 text-gray-400"></i> <i
+                    class="uil uil-camera absolute right-2 top-1 text-gray-400"></i> </div>
+                <div
+                  class="w-7 h-7 rounded-full bg-blue-300 text-center items-center flex justify-center hover:bg-gray-900 hover:text-white">
+                  <i class="uil uil-microphone"></i> </div>
+                <div class="w-7 h-7 rounded-full bg-blue-300 text-center items-center flex justify-center">
+                  <button type="submit" class="w-7 h-7 rounded-full text-center items-center flex justify-center focus:outline-none hover:bg-gray-900 hover:text-white">
+                  <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </main>
       <!-- ===== Main Content End ===== -->
     </div>
@@ -40,4 +73,7 @@ dasfcs
   </div>
   <!-- ===== Page Wrapper End ===== -->
 </body>
+<script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </html>

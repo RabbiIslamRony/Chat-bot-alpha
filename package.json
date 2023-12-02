@@ -34,7 +34,11 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@alpinejs/persist": "^3.12.0",
+    "alpinejs": "^3.10.3",
+    "tw-elements": "^1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rabbiislamrony/js-practice.git"
