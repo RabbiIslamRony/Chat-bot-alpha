@@ -8,7 +8,7 @@ window.Alpine = Alpine;
 Alpine.start();
 
 // Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-const apiKey = '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';
+const apiKey = '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';
 const chatForm = document.getElementById('chat-form');
 const chatInput = document.getElementById('chat-input');
 const chatMessage = document.getElementById('chat-message');
