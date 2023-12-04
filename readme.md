@@ -15,34 +15,33 @@ After installing Node.js, open your terminal and run:
 npm start
 ```
 
-## To create a production-ready build, use:
+## To create a production-ready build, use
+
 ```
 npm run build
 ```
 
 1. This command will generate a build in the build/ directory with HTML, CSS, JS, and fonts.
 
-
 ## API Key Configuration
+
 Before running the project, replace the API key in src/js/index.js:
 
 ## Replace this API key
+
 ```
 const apiKey = "your_api_key_here";
 ```
-<img
-src=“images/api.png
-raw=true
-alt=“Subject Pronouns”
-/>
+<https://github.com/RabbiIslamRony/Chat-bot-alpha/blob/main/src/images/api.png?raw=true>
 
 * Ensure your API key is securely configured before using the application.
 
-
 ## Note
+
 We utilize Tailwind for enhanced flexibility, allowing you to effortlessly achieve various designs
 
 ## Contribution
+
 Feel free to contribute to the project by opening issues or submitting pull requests. Your contributions are valuable.
 
 Happy coding!
