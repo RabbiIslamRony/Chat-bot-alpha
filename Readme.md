@@ -1,4 +1,4 @@
-# Chat-bot
+# [Chat-bot](https://chatgpt-bot-pearl.vercel.app/).
 
 Welcome to **Chat-bot** – an open-source project designed to help you enhance your JavaScript skills through practical exercises.
 
