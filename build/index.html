@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>
-    JS Prectise
+    Chat Bot
   </title>
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
@@ -36,30 +36,33 @@
             <div id="chat-window" class="w-80 h-96 bg-gray-400 rounded shadow-2xl scale-[1.5]">
               <nav class="w-full h-10 bg-gray-900 rounded-tr rounded-tl flex justify-between items-center">
                 <div class="flex justify-center items-center"> <i
-                    class="uil uil-angle-left-b font-normal text-gray-300 ml-1"></i> <img
-                    src="https://cdn-icons-png.flaticon.com/512/11865/11865338.png" class="rounded-full ml-1" width="25" height="25"> <span
-                    class="text-xs font-medium text-gray-300 ml-1">ChatGPT 3.5</span> </div>
-                <div class="flex items-center"> <i class="mdi mdi-video text-gray-300 mr-4"></i> <i
-                    class="uil uil-phone text-gray-300 mr-2"></i> <i
-                    class="uil uil-ellipsis-v text-gray-300 mr-2"></i> </div>
+                    class="uil uil-angle-left-b font-normal text-gray-300 ml-1 cursor-not-allowed appearance-none"></i>
+                  <img src="https://cdn-icons-png.flaticon.com/512/11865/11865338.png" class="rounded-full ml-1"
+                    width="25" height="25"> <span class="text-xs font-medium text-gray-300 ml-1">ChatGPT 3.5</span>
+                </div>
+                <div class="flex items-center"> <i
+                    class="uil uil-phone text-gray-300 mr-2 cursor-not-allowed appearance-none"></i> <i
+                    class="uil uil-ellipsis-v text-gray-300 mr-2 cursor-not-allowed appearance-none"></i> </div>
               </nav>
-              <div id="chat-message" class="overflow-auto px-1 py-1 h-[19rem]">
-                
+              <div id="chat-message" class="overflow-auto scrollbar px-[20px] py-[25px] h-[19rem]">
               </div>
-              <form id="chat-form" class="flex justify-between items-center p-1 ">
-                <div class="relative"> <i class="uil uil-smile absolute top-1 left-1 text-gray-400"
+              <form id="chat-form" class="flex justify-between items-center px-[5px] ">
+                <div class="relative"> <i
+                    class="uil uil-smile absolute top-1 left-1 text-gray-400 cursor-not-allowed appearance-none"
                     style="font-size: 17px !important;font-weight: bold;"></i>
-                    <input id="chat-input" type="text"
+                  <input id="chat-input" type="text"
                     class="rounded-full pl-6 pr-12 py-2 focus:outline-none h-auto placeholder-gray-100 bg-gray-900 text-white"
                     style="font-size: 11px;width: 250px;" placeholder="Type a message..."> <i
-                    class="uil uil-paperclip absolute right-8 top-1 transform -rotate-45 text-gray-400"></i> <i
-                    class="uil uil-camera absolute right-2 top-1 text-gray-400"></i> </div>
+                    class="uil uil-paperclip absolute right-8 top-1 transform -rotate-45 text-gray-400 cursor-not-allowed appearance-none"></i>
+                  <i class="uil uil-camera absolute right-2 top-1 text-gray-400 cursor-not-allowed appearance-none"></i>
+                </div>
                 <div
-                  class="w-7 h-7 rounded-full bg-blue-300 text-center items-center flex justify-center hover:bg-gray-900 hover:text-white">
+                  class="cursor-not-allowed appearance-none w-7 h-7 rounded-full bg-blue-300 text-center items-center flex justify-center">
                   <i class="uil uil-microphone"></i> </div>
                 <div class="w-7 h-7 rounded-full bg-blue-300 text-center items-center flex justify-center">
-                  <button type="submit" class="w-7 h-7 rounded-full text-center items-center flex justify-center focus:outline-none hover:bg-gray-900 hover:text-white">
-                  <i class="uil uil-message"></i>
+                  <button type="submit"
+                    class="w-7 h-7 rounded-full text-center items-center flex justify-center focus:outline-none hover:bg-gray-900 hover:text-white">
+                    <i class="uil uil-message"></i>
                   </button>
                 </div>
               </form>
@@ -67,13 +70,24 @@
           </div>
         </div>
       </main>
+          <div class="fixed bottom-4 right-4 space-x-4">
+          <a class="text-white" href="https://github.com/RabbiIslamRony/Chat-bot-alpha" data-te-toggle="tooltip"
+            data-te-placement="left" title="Please give a star if you like this project" data-te-template='<div class="opacity-0 transition-opacity duration-300 ease-in-out absolute z-[1080] block m-0 text-sm not-italic font-normal text-left no-underline underline-offset-auto normal-case leading-6 tracking-normal break-normal whitespace-normal" role="tooltip">
+          <div data-te-tooltip-inner-ref class="tooltip-inner max-w-[200px] text-sm py-1.5 px-4 text-dark dark:text-white text-center bg-white dark:bg-dark rounded shadow-lg"></div>
+          </div>'>
+            <svg class="w-[100px]" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="github">
+              <path fill="#000000"
+                d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z">
+              </path>
+            </svg>
+          </a>
+        </div>
       <!-- ===== Main Content End ===== -->
     </div>
     <!-- ===== Content Area End ===== -->
   </div>
   <!-- ===== Page Wrapper End ===== -->
 <script defer src="bundle.js"></script></body>
-<script
-  type="text/javascript"
-  src="node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+<script type="text/javascript" src="node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
 </html>
