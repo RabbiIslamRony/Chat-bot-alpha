@@ -38,7 +38,7 @@ const apiKey = "your_api_key_here";
 
 ## Note
 
-We utilize Tailwind for enhanced flexibility, allowing you to effortlessly achieve various designs
+We utilize Tailwind for enhanced flexibility, allowing you to effortlessly achieve various designs.Additionally, please note that the project is currently under development, so we appreciate your patience in case you encounter any minor issues.
 
 ## Contribution
 
