@@ -32,7 +32,7 @@ Before running the project, replace the API key in src/js/index.js:
 ```
 const apiKey = "your_api_key_here";
 ```
-<https://github.com/RabbiIslamRony/Chat-bot-alpha/blob/main/src/images/api.png?raw=true>
+<https://github.com/RabbiIslamRony/Chat-bot-alpha/blob/main/src/js/index.js>
 
 * Ensure your API key is securely configured before using the application.
 
